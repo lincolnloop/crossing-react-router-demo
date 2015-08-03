@@ -7,10 +7,11 @@ class User {
   render () {
     return (
       <div>
-        Hey, it worked!
         <div>
+          User 123
           <Link to={urls.get('photos')}>Photos</Link>
         </div>
+        Hey, it worked!
       </div>
     )
   }
@@ -20,8 +21,11 @@ class Photos {
   render () {
     return (
       <div>
-        Photos
-        <Link to={urls.get('user:detail', 123)}>User 123</Link>
+        <div>
+          <Link to={urls.get('user:detail', 123)}>User 123</Link>
+          Photos
+        </div>
+        Photos?
       </div>
     )
   }

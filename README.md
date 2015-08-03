@@ -1,6 +1,6 @@
 # crossing-react-router-demo
 
-An example application demonstrating use of the [Crossing](https://github.com/lincolnloop/crossing) library to help keep URLs portable within the application code. 
+An example application demonstrating use of the [Crossing](https://github.com/lincolnloop/crossing) library to help keep URLs portable within the application code.
 
 ## Install
 
@@ -11,4 +11,4 @@ npm install
 npm start
 ```
 
-Open your broswer to http://localhost:3000
+Open your broswer to http://localhost:3000/user/123
